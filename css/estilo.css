@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.473);
+    border-radius: 20px;
+    border: solid black;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.562);
+    padding: 20px;
+}
+
+#lcd {
+    width: 65%;
+    margin: 25px auto;
+    height: 50px;
+    border: solid white 1px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px black;
+    padding: 15px;
+    text-align: end;
+}
+
+.grupos {
+    width: 90%;
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: inline-block;
+    width: 80px;
+    margin: 5px;
+}
+
+button:hover {
+    display: inline-block;
+    width: 80px;
+    margin: 5px;
+    color: white;
+    background-color: brown;
+}
+
+.grupos .btn-final {
+    width: 45%;
+}
+
+.btn-style {
+    color: hsl(39, 100%, 50%);
+    background-color: rgba(128, 128, 128, 0.623);
+}
+
